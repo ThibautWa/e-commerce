@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: unset
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+}
+
+.header__top{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.header__top__logo{
+    place-self: center;
+}
+
+.header__top__logo img{
+    width: 100%;
+    padding-left: 1em;
+}
+
+.header__top__form {
+    margin:auto;
+    max-width: 60%;
+    justify-self: end;
+    align-self: center;
+}
+
+.header__top__form input{
+    height: 2.5em;
+    border-radius: 0.5em 0 0 0.5em;
+    padding-left: 1em;
+    width: 70%;
+}
+
+.header__top__form input:focus{
+    border: 2px solid violet;
+    outline: none;
+}
+
+.header__top__form button{
+    width: auto;
+    height: 3em;
+    border-radius: 0 1em 1em 0;
+    position: relative;
+    top: 6px;
+    left: -2px;
+
+}
+
+.header__top__container__menu{
+    display: grid;
+    height: 80%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.header__top__container__menu__bag{
+    height: 90px;
+    display: grid;
+    align-items: center;
+}
+
+.header__top__container__menu p{
+    position: relative;
+    top:-10px;
+}
+
+.header__bottom nav{
+    width: 100%;
+    background: rgba(43,24,39);
+}
+
+.header__bottom ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header__bottom li{
+    display: inline-block;
+    background: rgba(43,24,39);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.header__bottom li:hover{
+    background: violet;
+}
+
+.logOrRegister{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+.login{
+    grid-column-start: 1;
+}
+.register{
+    grid-column-start: 2;
+}

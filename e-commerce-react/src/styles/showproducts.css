@@ -1,0 +1,84 @@
+.container__produits{
+    margin: 0 auto;
+}
+
+.produits{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center left; 
+}
+
+.produitTitle{
+    color: white;
+    text-shadow: 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000;
+    position: relative;
+    top: 5px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+
+.produit{
+    margin: 15px;
+    width:  200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+    border-radius: 3px;
+}
+
+.produit:hover{
+    transform:scale(1.025);  
+}
+
+.produitCategorie{
+    text-transform: capitalize;
+}
+
+.produitDescription{
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.produitColor{
+    text-transform: capitalize;
+}
+
+.produitTaille{
+    text-transform: capitalize;
+}
+
+.produitPrix{
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.produitStock{
+    text-transform: capitalize;
+}
+
+.produitImage{
+    position: relative;
+    top: -15px;
+    width:100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.produitImage:hover{
+    
+}
+
+.produitButton{
+    padding: 8px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    float: right;
+    margin: 15px;
+}
+
+.produitButton:hover{
+    color: white;
+    background-color: rgb(255, 196, 0);
+}

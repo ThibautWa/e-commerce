@@ -1,0 +1,24 @@
+.commandesElem{
+    padding: 15px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 2px 2px 2px 2px rgba(112, 128, 144, 0.383);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.moreButton {
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    background-color: gold;
+    border: unset;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+.moreButton:hover{
+    color: white;
+    background-color: rgb(255, 196, 0);
+}

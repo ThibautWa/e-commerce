@@ -1,0 +1,200 @@
+/* these make sure it can work in any text element */
+.inline-text_copy--active,
+.inline-text_input--active {
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.inline-text_copy--active {
+    cursor: pointer;
+}
+
+.inline-text_copy--hidden,
+.inline-text_input--hidden {
+    display: none;
+}
+
+.Profil{
+    margin: auto;
+    max-width: 80%;
+}
+
+.profil-head{
+    text-align: center;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+*[class^="label"], *[class^="id"]{
+    font-size: 15px;
+}
+
+*[class^="label"]{
+    text-align: right;
+    padding-right: 10px;
+}
+
+*[class^="id"]{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.profil{
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.profil-item1{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.profil-item2{
+    grid-row-start: 3;
+}
+
+.profil-item3{
+    grid-row-start: 4;
+}
+
+.profil-item4{
+    grid-row-start: 5;
+}
+
+.profil-item5{
+    grid-row-start: 6;
+}
+
+.profil-item6{
+    grid-row-start: 7;
+}
+
+.profil-item7{
+    grid-row-start: 8;
+}
+
+.profil-item8{
+    grid-row-start: 9;
+}
+
+.profil-item9{
+    grid-row-start: 10;
+}
+
+.label1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.label2{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.label3{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.label4{
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+.label5{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+.label6{
+    grid-column-start: 2;
+    grid-row-start: 7;
+}
+
+.label7{
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+
+.label8{
+    grid-column-start: 2;
+    grid-row-start: 9;
+}
+
+.label9{
+    grid-column-start: 2;
+    grid-row-start: 10;
+}
+
+.id1{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.id2{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.id3{
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.id4{
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+
+.id5{
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+
+.id6{
+    grid-column-start: 3;
+    grid-row-start: 7;
+}
+
+.id7{
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+
+.id8{
+    grid-column-start: 3;
+    grid-row-start: 9;
+}
+
+.id9{
+    grid-column-start: 3;
+    grid-row-start: 10;
+}
+
+.profil-item{
+    align-self: flex-start;
+}
+
+.inline-text_input--active {
+    border-bottom: 1px solid #666666;
+    background-color: aliceblue;
+    width: 0px;
+    text-align: center;
+}
+
+.profil-password {
+    opacity: 0;
+}
+
+.inline-text_copy--active {
+    border: 1px black solid;
+    padding: 5px;
+}

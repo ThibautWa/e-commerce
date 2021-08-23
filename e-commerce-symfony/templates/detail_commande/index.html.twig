@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}DetailCommande index{% endblock %}
+
+{% block body %}
+    <h1>DetailCommande index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Id_commande</th>
+                <th>Id_produit</th>
+                <th>Quantité</th>
+                <th>Prix</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for detail_commande in detail_commandes %}
+            <tr>
+                <td>{{ detail_commande.id }}</td>
+                <td>{{ detail_commande.idCommande }}</td>
+                <td>{{ detail_commande.idProduit }}</td>
+                <td>{{ detail_commande.quantité }}</td>
+                <td>{{ detail_commande.prix }}</td>
+                <td>
+                    <a href="{{ path('detail_commande_show', {'id': detail_commande.id}) }}">show</a>
+                    <a href="{{ path('detail_commande_edit', {'id': detail_commande.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('detail_commande_new') }}">Create new</a>
+{% endblock %}

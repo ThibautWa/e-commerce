@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.category{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.category h4{
+    font-weight: normal;
+}
+
+
+.product{
+    display: grid;
+    grid-template-areas: "topleft topright"
+                        "description description"
+                        ". button";
+}
+
+.partA{
+    grid-area: topleft;
+    place-self: center;
+}
+
+.imgProduct{
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    max-width: 90%;
+}
+.partB{
+    grid-area: topright;
+    margin-top: 30px;
+}
+
+.title{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.partB ul{
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.partB li{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.partC{
+    grid-area: description;
+    border-top: 1px solid grey;
+    padding: 15px;
+}
+
+.partD{
+    grid-area: button;
+}
+
+.partC p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  margin: 0;
+}
+
+.inputQty{
+    height: 40px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid gold;
+    padding: 2px;
+    outline: none;
+    text-align: center;
+}
+
+.buyButton {
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    background-color: gold;
+    border: unset;
+    border-radius:0 10px 10px 0;
+    margin-top: 40px;
+}
+
+.buyButton:hover{
+    color: white;
+    background-color: rgb(255, 196, 0);
+}
